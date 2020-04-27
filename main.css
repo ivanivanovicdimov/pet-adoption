@@ -1,0 +1,28 @@
+#page-wrap { width: 80%; margin: 60px auto; }
+#page-wrap > div { margin: 0 0 50px 0; min-width: 500px; width: 100%; }
+
+.divContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 10px;
+  box-sizing: border-box;
+  flex-direction: row;
+  display: center;
+}
+
+.leftDiv {
+    flex: 1;
+    background-color: white;
+}
+
+.midDiv {
+    flex: 4;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.rightDiv {
+    flex: 1;
+    background-color: white;
+}
